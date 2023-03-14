@@ -31,7 +31,7 @@ function Header({ children }) {
         </Link>
         <div className=" mt-[5px] ml-[37rem] w-[300px] flex justify-between">
           {menuItems.map((item, index) => (
-            <NavLink className="text-[14px] font-[500] hover:underline  " to={item.path} key={index}>
+            <NavLink className="text-[14px]  tracking-[1px] font-[500] hover:underline " to={item.path} key={index}>
               {item.name}
             </NavLink>
           ))}
