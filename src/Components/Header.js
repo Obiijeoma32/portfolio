@@ -18,7 +18,7 @@ function Header({ children }) {
   ];
   return (
     <>
-      <div className=" header-container  text-[#000000]  flex">
+      <div className=" header-container  text-[#000000]  flex  ">
         <svg className=" mt-[-3px]" width="25" height="25" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M23.1582 45.1511C35.5847 45.1511 45.6582 35.0776 45.6582 22.6511C45.6582 10.2247 35.5847 0.151062 23.1582 0.151062C10.7318 0.151062 0.658203 10.2247 0.658203 22.6511C0.658203 35.0776 10.7318 45.1511 23.1582 45.1511Z"

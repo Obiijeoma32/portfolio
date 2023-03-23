@@ -63,24 +63,24 @@ function Home() {
           <div className=" mt-4">
             <h3 className=" ml-1 font-[500] text-[25px]">A Bit About Me</h3>
             <p className=" tracking-[1px] ml-1 mt-1 text-[16px] font-[400] w-[500px]">
-              I love my job! I hang out with a lot of tech nerds. I am a tech and political geek myself. I tried to pick up programming (Python) but not sure if I can do that for my career. I regularly attend tech meetups and I know a lot of powerful
-              people in the tech industry. I do not like pushy people. If you are nice, I will go out of my way to help you. I like to treat people with respect. I enjoy helping people and I love to learn about new technologies:) I educate, refine
-              and drive myself to be a better person, I am constantly learning because I never settle and I focus on making high-quality decisions{" "}
+              My name is Candy Ijeoma Obi, and I am a frontend engineer with a passion for JavaScript and a strong understanding of React. I have also honed my skills as a creative UX designer, enjoying the process of designing and playing with
+              colors to create visually appealing and user-friendly interfaces. In addition to my professional pursuits, I am also someone who loves to laugh and finds joy in the simple things in life. I am a hardworking individual who takes pride in
+              my work and strives to deliver the best possible outcomes in everything I do.{" "}
             </p>
           </div>
         </div>
       </div>
       <div className="  flex justify-between mt-[4rem] ml-[33rem] w-[680px] h-[100px] ">
-        <Link className=" socials font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline outline-offset-2 outline-1 bg-[#fdc244] hover:bg-[#fff]  " to="/resume">
+        <Link className=" socials font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#fdc244] hover:bg-[#fff]  " to="/resume">
           Resume
         </Link>
-        <Link className="socials font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline outline-offset-2 outline-1 bg-[#FF3B25] hover:bg-[#fff] " to="/project">
+        <Link className="socials font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#FF3B25] hover:bg-[#fff] " to="/project">
           Projects
         </Link>
-        <a className="socials2 font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline outline-offset-2 outline-1 bg-[#80D8DA] hover:bg-[#fff] " href="https://github.com/Obiijeoma32">
+        <a className="socials2 font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#80D8DA] hover:bg-[#fff] hover:outline-offset-2" href="https://github.com/Obiijeoma32">
           Github
         </a>
-        <a className="socials2 font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline outline-offset-2 outline-1 bg-[#008AFC] hover:bg-[#fff] " href="https://www.linkedin.com/in/obiijeoma32/">
+        <a className="socials2 font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#008AFC] hover:bg-[#fff] " href="https://www.linkedin.com/in/obiijeoma32/">
           linkedin
         </a>
       </div>

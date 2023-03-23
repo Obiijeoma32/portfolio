@@ -20,6 +20,7 @@ body {
   opacity: 0.9;
   background-color: #f3f3f3;
 }
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -36,12 +37,15 @@ body {
 }
 .home-img,
 .socials,
-.div1 {
+.div1,
+.skill-box,
+.project-box2 {
   animation: fadeIn 1.5s;
 }
 .home-details,
 .socials2,
-.div2 {
+.div2,
+.project-box {
   animation: fadeOut 1.5s;
 }
 @keyframes fadeOut {
@@ -64,4 +68,10 @@ body {
 .socials2:hover {
   opacity: 1;
   transition: 1s;
+}
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid black;
+  outline: none;
+  margin-top: 1px;
 }
