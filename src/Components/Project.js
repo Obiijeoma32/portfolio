@@ -156,7 +156,7 @@ function Project() {
               <div className="w-[300px] ml-7">
                 <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">LANDING PAGE APP</h3>
                 <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
-                  Landing page is a web page designed to introduce visitors to your company and encourage them to take action, such as signing up for a service or buying a product. I used React to create a single-page application that provides a
+                  Landing page is a web page designed to introduce visitors to my company and encourage them to take action, such as signing up for a service or buying a product. I used React to create a single-page application that provides a
                   dynamic and responsive user interface.{" "}
                 </p>
                 <a className=" font-[500] text-[16px]  hover:underline " href="https://nubeero-landing-page.netlify.app">
