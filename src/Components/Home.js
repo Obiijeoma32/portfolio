@@ -7,11 +7,11 @@ import Footer from "./Footer";
 function Home() {
   return (
     <>
-      <div className=" flex text-[#000000] ml-[6rem] mt-[9rem]">
-        <img className=" home-img rounded-[100%] w-[500px] h-[500px]" src={image} alt="candy" />
-        <div className=" home-details ml-[3rem] mt-9 ">
-          <div className=" w-[250px] justify-between flex">
-            <h1 className=" font-[500]  text-[70px]">Hello</h1>
+      <div className=" md:flex 3xxl:w-[95%] w-[85%] 3xxl:ml-[50px] 3xxl:grid 5xl:justify-evenly 4xl:justify-evenly 3xl:justify-evenly  text-[#000000] md:ml-[6rem] mt-[9rem]">
+        <img className=" home-img rounded-[100%] md:w-[500px] 3xxl:w-[400px] 3xxl:h-[400px] md:h-[500px]" src={image} alt="candy" />
+        <div className=" home-details 3xxl:w-[300px]   md:ml-[3rem] mt-9 ">
+          <div className="  w-[250px] justify-between flex">
+            <h1 className=" font-[500]   text-[70px]">Hello</h1>
             <svg className="mt-[25px]" width="50" height="50" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M15.1738 46.3687C14.7051 46.2749 14.3301 46.1812 13.8613 45.9937C13.3926 45.8062 13.0176 45.7124 12.6426 45.5249C11.7988 45.1499 11.0488 44.6812 10.2988 44.1187C8.79884 43.0874 7.58009 41.6812 6.64259 39.9937C5.70509 38.3999 5.14259 36.5249 5.04884 34.7437C4.95509 33.8062 5.04884 32.9624 5.14259 32.0249C5.23634 31.5562 5.33009 31.1812 5.42384 30.7124C5.51759 30.2437 5.70509 29.8687 5.79884 29.3999L5.89259 30.7124C5.89259 31.1812 5.98634 31.5562 6.08009 32.0249C6.17384 32.8687 6.36134 33.7124 6.54884 34.4624C6.92384 36.0562 7.48634 37.5562 8.33009 38.9624C9.17384 40.3687 10.1113 41.6812 11.3301 42.8999C11.8926 43.4624 12.5488 44.0249 13.2051 44.5874C13.4863 44.8687 13.8613 45.1499 14.2363 45.4312L15.1738 46.3687Z"
@@ -60,9 +60,9 @@ function Home() {
               <path d="M44.6112 29.0249C38.7987 29.6812 30.2675 38.0249 36.2675 47.1187C31.8612 37.9312 39.08 31.7437 43.6737 29.5874C44.1425 29.2124 44.6112 29.0249 44.6112 29.0249Z" fill="#000000" />
             </svg>
           </div>
-          <div className=" mt-4">
+          <div className="  mt-4">
             <h3 className=" ml-1 font-[500] text-[25px]">A Bit About Me</h3>
-            <p className=" tracking-[1px] ml-1 mt-1 text-[16px] font-[400] w-[500px]">
+            <p className=" tracking-[1px] 3xxl:w-[400px]   ml-1 mt-1 text-[16px] font-[400] md:w-[500px] 5xl:w-[800px] 4xl:w-[700px] 3xl:w-[600px]  ">
               My name is Candy Ijeoma Obi, and I am a frontend engineer with a passion for JavaScript and a strong understanding of React. I have also honed my skills as a creative UX designer, enjoying the process of designing and playing with
               colors to create visually appealing and user-friendly interfaces. In addition to my professional pursuits, I am also someone who loves to laugh and finds joy in the simple things in life. I am a hardworking individual who takes pride in
               my work and strives to deliver the best possible outcomes in everything I do.{" "}
@@ -70,21 +70,27 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="  flex justify-between mt-[4rem] ml-[33rem] w-[680px] h-[100px] ">
-        <Link className=" socials font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#fdc244] hover:bg-[#fff]  " to="/resume">
-          Resume
-        </Link>
-        <Link className="socials font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#FF3B25] hover:bg-[#fff] " to="/project">
-          Projects
-        </Link>
-        <a className="socials2 font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#80D8DA] hover:bg-[#fff] hover:outline-offset-2" href="https://github.com/Obiijeoma32">
-          Github
-        </a>
-        <a className="socials2 font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#008AFC] hover:bg-[#fff] " href="https://www.linkedin.com/in/obiijeoma32/">
-          linkedin
-        </a>
+      <div className=" 3xxl:w-[400px]  md:w-[95%] 5xl:mt-[-5rem] md:flex justify-end 5xl:w-[74%] 4xl:w-[83%] 4xl:mt-[-5rem] 3xl:w-[89%] 3xl:mt-[-4rem]">
+        <div className="  3xxl:h-[400px] 3xxl:ml-[40px] md:flex justify-between md:mt-[4rem] 3xxl:mt-[5rem] 3xxl:w-[500px]  md:w-[680px]  ">
+          <div className=" 3xxl:w-[350px] 3xxl:justify-between  3xxl:flex">
+            <Link to="/resume">
+              <div className=" socials font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px]  text-center outline  outline-1 bg-[#fdc244] hover:bg-[#fff]  ">Resume</div>
+            </Link>
+            <Link to="/project">
+              <div className=" socials font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px]  text-center outline  outline-1 bg-[#FF3B25] hover:bg-[#fff]  "> Projects</div>
+            </Link>
+          </div>
+          <div className=" 3xxl:mt-[50px] 3xxl:w-[350px] 3xxl:justify-between 3xxl:flex">
+            <a href="https://github.com/Obiijeoma32">
+              <div className="socials2 font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#80D8DA] hover:bg-[#fff] hover:outline-offset-2">Github</div>
+            </a>
+            <a href="https://www.linkedin.com/in/obiijeoma32/">
+              <div className="socials2 font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#008AFC] hover:bg-[#fff] ">linkedin</div>
+            </a>
+          </div>
+        </div>
       </div>
-      <div className=" w-[95%] mt-[6rem] ml-[2.5rem] mb-[2rem] border-t-2 border-[#C7C7C7]">
+      <div className=" w-[90%] md:mt-[6rem] ml-[2.5rem] mb-[2rem] border-t-2 border-[#C7C7C7] 2xl:w-[93%]">
         <Footer />
       </div>
     </>
