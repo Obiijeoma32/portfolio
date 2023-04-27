@@ -7,9 +7,9 @@ import Footer from "./Footer";
 function Home() {
   return (
     <>
-      <div className=" md:flex 3xxl:w-[95%] w-[85%] 3xxl:ml-[50px] 3xxl:grid 5xl:justify-evenly 4xl:justify-evenly 3xl:justify-evenly  text-[#000000] md:ml-[6rem] mt-[9rem]">
-        <img className=" home-img rounded-[100%] md:w-[500px] 3xxl:w-[400px] 3xxl:h-[400px] md:h-[500px]" src={image} alt="candy" />
-        <div className=" home-details 3xxl:w-[300px]   md:ml-[3rem] mt-9 ">
+      <div className=" md:flex  3xxl:w-[320px] md:w-[85%] 3xxl:ml-[60px] 3xxl:grid 5xl:justify-evenly 4xl:justify-evenly 3xl:justify-evenly  text-[#000000] md:ml-[6rem] mt-[9rem]">
+        <img className=" home-img rounded-[100%] md:w-[500px] 3xxl:w-[300px] 3xxl:h-[300px] md:h-[500px]" src={image} alt="candy" />
+        <div className=" home-details    md:ml-[3rem] mt-9 3xxl:w-[300px]">
           <div className="  w-[250px] justify-between flex">
             <h1 className=" font-[500]   text-[70px]">Hello</h1>
             <svg className="mt-[25px]" width="50" height="50" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,27 +70,27 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className=" 3xxl:w-[400px]  md:w-[95%] 5xl:mt-[-5rem] md:flex justify-end 5xl:w-[74%] 4xl:w-[83%] 4xl:mt-[-5rem] 3xl:w-[89%] 3xl:mt-[-4rem]">
-        <div className="  3xxl:h-[400px] 3xxl:ml-[40px] md:flex justify-between md:mt-[4rem] 3xxl:mt-[5rem] 3xxl:w-[500px]  md:w-[680px]  ">
+      <div className="  3xxl:w-[400px]  md:w-[95%] 5xl:mt-[-5rem] md:flex justify-end 5xl:w-[74%] 4xl:w-[83%] 4xl:mt-[-5rem] 3xl:w-[89%] 3xl:mt-[-4rem]">
+        <div className=" 3xxl:ml-[60px] md:flex justify-between md:mt-[4rem] 3xxl:mt-[5rem] 3xxl:w-[500px]  md:w-[680px]  ">
           <div className=" 3xxl:w-[350px] 3xxl:justify-between  3xxl:flex">
             <Link to="/resume">
-              <div className=" socials font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px]  text-center outline  outline-1 bg-[#fdc244] hover:bg-[#fff]  ">Resume</div>
+              <div className=" socials 3xxl:mb-[20px] font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px]  text-center outline  outline-1 bg-[#fdc244] hover:bg-[#fff]  ">Resume</div>
             </Link>
             <Link to="/project">
-              <div className=" socials font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px]  text-center outline  outline-1 bg-[#FF3B25] hover:bg-[#fff]  "> Projects</div>
+              <div className=" socials 3xxl:mb-[20px] font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px]  text-center outline  outline-1 bg-[#FF3B25] hover:bg-[#fff]  "> Projects</div>
             </Link>
           </div>
-          <div className=" 3xxl:mt-[50px] 3xxl:w-[350px] 3xxl:justify-between 3xxl:flex">
+          <div className=" md:ml-[30px] 3xxl:w-[350px] 3xxl:justify-between 3xxl:flex">
             <a href="https://github.com/Obiijeoma32">
-              <div className="socials2 font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#80D8DA] hover:bg-[#fff] hover:outline-offset-2">Github</div>
+              <div className="socials2 font-[500] 3xxl:mb-[20px] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#80D8DA] hover:bg-[#fff] hover:outline-offset-2">Github</div>
             </a>
             <a href="https://www.linkedin.com/in/obiijeoma32/">
-              <div className="socials2 font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#008AFC] hover:bg-[#fff] ">linkedin</div>
+              <div className="socials2 font-[500] text-[20px] 3xxl:mb-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#008AFC] hover:bg-[#fff] ">linkedin</div>
             </a>
           </div>
         </div>
       </div>
-      <div className=" w-[90%] md:mt-[6rem] ml-[2.5rem] mb-[2rem] border-t-2 border-[#C7C7C7] 2xl:w-[93%]">
+      <div className=" 3xxl:ml-[2rem] 3xxl:w-[375px] md:w-[90%] md:ml-[2.5rem] md:mt-[4rem] mb-[2rem] border-t-2 border-[#C7C7C7] 2xl:w-[93%]">
         <Footer />
       </div>
     </>

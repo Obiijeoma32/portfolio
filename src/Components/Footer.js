@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div className=" mt-[3rem] h-[120px]   w-[100%]">
-        <div className=" w-[95%] flex justify-between">
+      <div className=" mt-[3rem] h-[120px]   w-[100%] ">
+        <div className=" w-[95%] flex justify-between ">
           <div className="div1">
             <h1 className="font-[500] text-[#000]  text-[22px]">Email</h1>
             <a className="font-[400] text-[#000]  text-[16px] hover:underline" href="mailto:obiijeoma32@gmail.com">

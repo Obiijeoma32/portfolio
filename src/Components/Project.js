@@ -7,7 +7,7 @@ function Project() {
       <div className="mt-[8rem] ml-8 w-[95%]">
         <div>
           <h1 className=" font-[600] text-[32px]  text-[#372f2f] text-center 5xl:ml-[-120px] "> SKILLS</h1>
-          <div className="flex justify-between text-center  5xl:w-[95%] items-center">
+          <div className="flex justify-between text-center  3xxl:grid 5xl:w-[95%] items-center">
             <div className="skill-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center md:m-[20px] 5xl:w-[650px]  4xl:w-[500px] ">
               <div className=" 5xl:ml-[50px] 5xl:mt-[8%]   4xl:ml-[25px] 4xl:mt-[8%] 3xl:ml-[50px] 3xl:mt-[30px]">
                 <div className="md:ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#f8b931] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[175px]  ">
