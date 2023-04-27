@@ -62,7 +62,7 @@ function Home() {
           </div>
           <div className="  mt-4">
             <h3 className=" ml-1 font-[500] text-[25px]">A Bit About Me</h3>
-            <p className=" tracking-[1px] 3xxl:w-[400px]   ml-1 mt-1 text-[16px] font-[400] md:w-[500px] 5xl:w-[800px] 4xl:w-[700px] 3xl:w-[600px]  ">
+            <p className=" tracking-[1px] 3xxl:w-[365px]   ml-1 mt-1 text-[16px] font-[400] md:w-[500px] 5xl:w-[800px] 4xl:w-[700px] 3xl:w-[600px]  ">
               My name is Candy Ijeoma Obi, and I am a frontend engineer with a passion for JavaScript and a strong understanding of React. I have also honed my skills as a creative UX designer, enjoying the process of designing and playing with
               colors to create visually appealing and user-friendly interfaces. In addition to my professional pursuits, I am also someone who loves to laugh and finds joy in the simple things in life. I am a hardworking individual who takes pride in
               my work and strives to deliver the best possible outcomes in everything I do.{" "}
@@ -71,7 +71,7 @@ function Home() {
         </div>
       </div>
       <div className="  3xxl:w-[400px]  md:w-[95%] 5xl:mt-[-5rem] md:flex justify-end 5xl:w-[74%] 4xl:w-[83%] 4xl:mt-[-5rem] 3xl:w-[89%] 3xl:mt-[-4rem]">
-        <div className=" 3xxl:ml-[20px] md:flex justify-between md:mt-[4rem] 3xxl:mt-[5rem] 3xxl:w-[500px]  md:w-[680px]  ">
+        <div className=" 3xxl:ml-[30px] md:flex justify-between md:mt-[4rem] 3xxl:mt-[5rem] 3xxl:w-[500px]  md:w-[680px]  ">
           <div className=" 3xxl:w-[350px] 3xxl:justify-between  3xxl:flex">
             <Link to="/resume">
               <div className=" socials 3xxl:mb-[20px] font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px]  text-center outline  outline-1 bg-[#fdc244] hover:bg-[#fff]  ">Resume</div>
