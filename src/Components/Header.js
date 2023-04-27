@@ -34,8 +34,8 @@ function Header({ children }) {
           </svg>
         </div>
         <Link to="/home" className="md:mt-[-10px] md:ml-[15px]">
-          <h1 className=" 3xxl:text-[20px] tracking-[1px] text-[24px] font-[500]">Ijeoma Candy Obi</h1>
-          <h3 className=" 3xxl:text-[12px] text-[16px] font-[400]">Frontend Engineer & UX Designer </h3>
+          <h1 className=" 3xxl:text-[20px] tracking-[1px] md:text-[24px] font-[500]">Ijeoma Candy Obi</h1>
+          <h3 className=" 3xxl:text-[12px] md:text-[16px] font-[400]">Frontend Engineer & UX Designer </h3>
         </Link>
         <div className="lg:flex hidden mt-[5px] ml-[30rem] md:w-[400px]  justify-between 2xl:ml-[65%]">
           {menuItems.map((item, index) => (

@@ -4,13 +4,13 @@ import Footer from "./Footer";
 function Project() {
   return (
     <>
-      <div className="mt-[8rem] ml-8 w-[95%]">
+      <div className="mt-[8rem] md:ml-8 3xxl:ml-[28px] 3xxl:w-[340px] md:w-[95%] 3xxl:overflow-x-hidden">
         <div>
-          <h1 className=" font-[600] text-[32px]  text-[#372f2f] text-center 5xl:ml-[-120px] "> SKILLS</h1>
+          <h1 className=" font-[600] text-[32px]  text-[#372f2f] text-center 5xl:ml-[-120px] 3xxl:ml-[-20px] 3xxl:mb-[30px] "> SKILLS</h1>
           <div className="flex justify-between text-center  3xxl:grid 5xl:w-[95%] items-center">
-            <div className="skill-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center md:m-[20px] 5xl:w-[650px]  4xl:w-[500px] ">
+            <div className="skill-box md:w-[500px] 3xxl:mb-[30px] 3xxl:w-[310px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px]   md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  4xl:w-[500px] ">
               <div className=" 5xl:ml-[50px] 5xl:mt-[8%]   4xl:ml-[25px] 4xl:mt-[8%] 3xl:ml-[50px] 3xl:mt-[30px]">
-                <div className="md:ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#f8b931] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[175px]  ">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#f8b931] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[175px]  ">
                   <svg width="50" height="50" viewBox="0 0 137 137" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -20,7 +20,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px] ml-7 4xl:w-[400px] 3xl:w-[350px]  ">
+                <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px] ml-7 4xl:w-[400px] 3xl:w-[350px]  ">
                   <h1 className="mb-1 font-[600] text-[18px] mt-[20px]">Cross-Industry Experience</h1>
                   <p className=" font-[400] text-[14px] text-[#4f4f4f]  ">
                     {" "}
@@ -30,9 +30,9 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div className="skill-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
+            <div className="skill-box md:w-[500px] 3xxl:w-[310px] 3xxl:mb-[30px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px]   md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[50px] 5xl:mt-[8%]  4xl:ml-[25px] 4xl:mt-[8%] 3xl:ml-[40px] 3xl:mt-[20px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#f8b931] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[175px] 3xl:ml-[150px] ">
+                <div className="md:ml-[8.5rem] mt-[1rem] 3xxl:ml-[35%] w-[90px] h-[90px] bg-[#f8b931] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[175px] 3xl:ml-[150px] ">
                   <svg width="50" height="50" viewBox="0 0 799 695" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -42,7 +42,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px] ml-7 4xl:w-[400px] 3xl:w-[350px] ">
+                <div className="md:w-[300px] 3xxl:w-[270px]  5xl:w-[500px] 3xxl:ml-[20px] md:ml-7 4xl:w-[400px] 3xl:w-[350px] ">
                   <h1 className="mb-1 font-[600] text-[18px] mt-[20px]">Frontend Developement</h1>
                   <p className=" font-[400] text-[14px] text-[#4f4f4f]  ">
                     As a frontend developer with knowledge of JavaScript, React, and Vue, i have expertise in creating interactive user interfaces for web applications. JavaScript is a popular programming language used to create dynamic web content
@@ -51,9 +51,9 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div className="skill-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
+            <div className="skill-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:mb-[30px] 3xxl:w-[310px]   md:h-[400px] text-center 3xxl:h-[500px] md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[50px] 5xl:mt-[8%]  4xl:ml-[25px] 4xl:mt-[8%] 3xl:ml-[40px] 3xl:mt-[20px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#f8b931] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[175px] 3xl:ml-[150px] ">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#f8b931] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[175px] 3xl:ml-[150px] ">
                   <svg width="50" height="50" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -63,7 +63,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px] ml-7 4xl:w-[400px] 3xl:w-[350px] ">
+                <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px] ml-7 4xl:w-[400px] 3xl:w-[350px] ">
                   <h1 className="mb-1 font-[600] text-[18px] mt-[20px]">Design Focused</h1>
                   <p className=" font-[400] text-[14px] text-[#4f4f4f]  ">
                     As a UX (user experience) designer with a clear understanding of Figma, i have the ability to create effective and user-friendly digital experiences.As a UX designer, my main focus is on designing the user experience, which means
@@ -75,11 +75,11 @@ function Project() {
           </div>
         </div>
         <div className="mt-[4rem]">
-          <h1 className=" font-[600] text-[32px] text-[#372f2f] text-center 5xl:ml-[-120px] "> PROJECTS</h1>
-          <div className="flex mt-2 justify-between 5xl:w-[95%] items-center ">
-            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
+          <h1 className=" font-[600] text-[32px] text-[#372f2f] text-center 5xl:ml-[-120px] 3xxl:ml-[-20px] 3xxl:mb-[30px] "> PROJECTS</h1>
+          <div className="md:flex mt-2 justify-between 5xl:w-[95%] items-center 3xxl:grid ">
+            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]   md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[50px] 5xl:mt-[8%]  4xl:ml-[5px] 4xl:mt-[8%] 3xl:ml-[40px] 3xl:mt-[20px]">
-                <div className="md:ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[190px] 3xl:ml-[155px] ">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[37%] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[190px] 3xl:ml-[155px] ">
                   <svg width="50" height="50" viewBox="0 0 214 178" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -89,7 +89,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px] 5xl:ml-[20px] ml-7 4xl:w-[430px] 4xl:mr-[10px] 3xl:w-[350px]   ">
+                <div className="md:w-[300px] 3xxl:w-[260px] 5xl:w-[500px] 5xl:ml-[20px] ml-7 4xl:w-[430px] 4xl:mr-[10px] 3xl:w-[350px]   ">
                   <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">WEATHER APP</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                     Weather app is an application built with React. The app displays the weather data in a user-friendly format, including the temperature, weather conditions, and a weather icon.The weather app is a simple but useful tool for
@@ -101,9 +101,9 @@ function Project() {
                 </div>
               </div>{" "}
             </div>
-            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
+            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]   md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[50px] 5xl:mt-[8%]  4xl:ml-[20px] 4xl:mt-[8%] 3xl:ml-[60px] 3xl:mt-[20px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[170px] ">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[37%] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[170px] ">
                   <svg width="50" height="50" viewBox="0 0 512 502" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -113,7 +113,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px] md:ml-7 5xl:ml-[20px] 4xl:w-[430px] 4xl:ml-[5px] 3xl:w-[350px] 3xl:ml-[5px]  ">
+                <div className="md:w-[300px] 3xxl:w-[250px] 3xxl:ml-[30px] 5xl:w-[500px] md:ml-7 5xl:ml-[20px] 4xl:w-[430px] 4xl:ml-[5px] 3xl:w-[350px] 3xl:ml-[5px]  ">
                   <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">COVID APP</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                     COVID app is a single-page application built with React. The dashboard shows the total number of confirmed cases, deaths, and recoveries worldwide.To get the latest COVID data,my app sends a request to an API using Axios, which is
@@ -125,9 +125,9 @@ function Project() {
                 </div>{" "}
               </div>
             </div>
-            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
+            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[50px] 5xl:mt-[8%]  4xl:ml-[px] 4xl:mt-[8%] 3xl:ml-[60px] 3xl:mt-[20px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[140px] ">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[140px] ">
                   <svg width="50" height="50" viewBox="0 0 769 1091" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -137,7 +137,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px] 5xl:ml-[20px] ml-7 4xl:w-[430px] 4xl:ml-[-30px] 3xl:w-[350px] 3xl:ml-[5px]  ">
+                <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px] 5xl:ml-[20px] ml-7 4xl:w-[430px] 4xl:ml-[-30px] 3xl:w-[350px] 3xl:ml-[5px]  ">
                   <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">CALCULATOR APP</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                     The calculator app is a single-page application built with React. To handle the logic behind the calculator, i implemented functions that use the state and props features of React. When the user clicks on a button, the
@@ -153,10 +153,10 @@ function Project() {
         </div>
         <div className="mt-[3rem]">
           {/* landing */}
-          <div className="flex mt-1 justify-between 5xl:w-[95%] items-center ">
-            <div className="project-box2 w-[600px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px] 5xl:w-[650px] 4xl:w-[500px] ">
+          <div className="md:flex mt-1 justify-between 5xl:w-[95%] items-center 3xxl:w-[340px] 3xxl:grid ">
+            <div className="project-box2 md:w-[600px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px] 3xxl:ml-[5px]   md:h-[400px] text-center m-[20px] 5xl:w-[650px] 4xl:w-[500px] ">
               <div className=" 5xl:ml-[30px] 5xl:mt-[8%] 4xl:ml-[0px]  4xl:mt-[8%] 3xl:ml-[60px] 3xl:mt-[20px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex md:ml-[8.5rem]  5xl:ml-[230px]  4xl:ml-[185px]  ">
+                <div className="3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex md:ml-[8.5rem]  5xl:ml-[230px]  4xl:ml-[185px]  ">
                   <svg width="50" height="50" viewBox="0 0 514 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -166,7 +166,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px] 5xl:ml-[30px] ml-7 4xl:w-[430px] 4xl:ml-[25px] 3xl:w-[350px] 3xl:ml-[5px]  ">
+                <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px] 5xl:ml-[30px] ml-7 4xl:w-[430px] 4xl:ml-[25px] 3xl:w-[350px] 3xl:ml-[5px]  ">
                   <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">LANDING PAGE APP</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                     Landing page is a web page designed to introduce visitors to my company and encourage them to take action, such as signing up for a service or buying a product. I used React to create a single-page application that provides a
@@ -178,9 +178,9 @@ function Project() {
                 </div>{" "}
               </div>{" "}
             </div>
-            <div className="project-box2 w-[600px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px] 5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box2 md:w-[600px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px] 3xxl:ml-[5px]   md:h-[400px] text-center m-[20px] 5xl:w-[650px] 4xl:w-[500px] ">
               <div className=" 5xl:ml-[35px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[60px] 3xl:mt-[20px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex md:ml-[8.5rem]  5xl:ml-[230px]  4xl:ml-[185px]  ">
+                <div className="3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex md:ml-[8.5rem]  5xl:ml-[230px]  4xl:ml-[185px]  ">
                   <svg width="50" height="50" viewBox="0 0 513 272" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -191,7 +191,7 @@ function Project() {
                   </svg>
                 </div>
               </div>
-              <div className="w-[300px] 5xl:w-[500px] 5xl:ml-[60px] ml-7 4xl:w-[400px] 4xl:ml-[50px] 3xl:w-[350px] 3xl:ml-[65px] ">
+              <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px] 5xl:ml-[60px] ml-7 4xl:w-[400px] 4xl:ml-[50px] 3xl:w-[350px] 3xl:ml-[65px] ">
                 <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">COUNTER APP</h3>
                 <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                   Counter app is a single-page application built with Vue.js, a popular JavaScript framework for building user interfaces. To manage the state of your application, you used Vuex, a state management library for Vue.js.Overall, my
@@ -202,9 +202,9 @@ function Project() {
                 </a>
               </div>{" "}
             </div>
-            <div className="project-box2 w-[600px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px] 5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box2 md:w-[600px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px] 3xxl:ml-[5px]   md:h-[400px] text-center m-[20px] 5xl:w-[650px] 4xl:w-[500px] ">
               <div className=" 5xl:ml-[25px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[60px] 3xl:mt-[20px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex md:ml-[8.5rem]  5xl:ml-[230px]  4xl:ml-[185px]  ">
+                <div className="3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex md:ml-[8.5rem]  5xl:ml-[230px]  4xl:ml-[185px]  ">
                   <svg width="50" height="50" viewBox="0 0 484 468" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -215,7 +215,7 @@ function Project() {
                   </svg>
                 </div>
               </div>
-              <div className="w-[300px] 5xl:w-[500px] 5xl:ml-[60px] ml-7 4xl:w-[400px] 4xl:ml-[50px] 3xl:w-[350px] 3xl:ml-[65px] ">
+              <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px] 5xl:ml-[60px] ml-7 4xl:w-[400px] 4xl:ml-[50px] 3xl:w-[350px] 3xl:ml-[65px] ">
                 <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">ADMIN APP</h3>
                 <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                   Admin page is a web page designed for managing the backend of my company's website or application. I used React to create a single-page application that provides a dynamic and responsive user interface, and Router to handle the
@@ -230,10 +230,10 @@ function Project() {
         </div>
         <div className="mt-[4rem]">
           <h1 className=" font-[600] text-[32px] text-[#372f2f] text-center 5xl:ml-[-120px]  ">TOOLS</h1>
-          <div className="flex mt-1 justify-between 5xl:w-[95%]   items-center ">
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+          <div className="md:flex mt-1 justify-between 5xl:w-[95%]   items-center 3xxl:w-[340px] 3xxl:grid ">
+            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
               <div className=" 5xl:ml-[80px] 5xl:mt-[8%]  4xl:ml-[18px]  4xl:mt-[8%] 3xl:mt-[20px] 3xl:ml-[60px] ">
-                <div className="md:ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 4xl:ml-[190px]">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 4xl:ml-[190px]">
                   <svg width="50" height="50" viewBox="0 0 447 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -244,7 +244,7 @@ function Project() {
                   </svg>
                 </div>
               </div>
-              <div className="w-[300px] 5xl:w-[500px] 5xl:ml-[60px] ml-7 4xl:w-[400px] 4xl:ml-[50px] 3xl:w-[350px] 3xl:ml-[60px]">
+              <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px] 5xl:ml-[60px] ml-7 4xl:w-[400px] 4xl:ml-[50px] 3xl:w-[350px] 3xl:ml-[60px]">
                 <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">HTML5</h3>
                 <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                   HTML5 is a markup language used to create the structure and content of web pages. It is an essential tool. I have extensive knowledge of HTML5, and also proficient in using its syntax and elements to create and design web pages,
@@ -252,9 +252,9 @@ function Project() {
                 </p>
               </div>
             </div>
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px]  ">
+            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px]  ">
               <div className=" 5xl:ml-[80px] 5xl:mt-[8%]  4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[60px] 3xl:mt-[20px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 4xl:ml-[187px] ">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 4xl:ml-[187px] ">
                   <svg width="50" height="50" viewBox="0 0 147 166" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -266,7 +266,7 @@ function Project() {
                 </div>
               </div>
 
-              <div className="w-[300px] 5xl:w-[500px] 5xl:ml-[60px] ml-7 4xl:w-[400px] 4xl:ml-[50px] 3xl:w-[350px] 3xl:ml-[60px]">
+              <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px] 5xl:ml-[60px] ml-7 4xl:w-[400px] 4xl:ml-[50px] 3xl:w-[350px] 3xl:ml-[60px]">
                 <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">CSS</h3>
                 <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                   Cascading Style Sheets, is a language used to style and layout HTML documents. It allows me to control the appearance of their web pages. I have a solid understanding of its syntax and features, as well as an eye for design and
@@ -274,9 +274,9 @@ function Project() {
                 </p>
               </div>
             </div>
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px]  ">
+            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]  3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px]  ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%]  4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[40px] 3xl:mt-[20px] ">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[230px] 4xl:ml-[185px] 3xl:ml-[160px]">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[230px] 4xl:ml-[185px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 429 430" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -286,7 +286,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[30px] 3xl:w-[350px]">
+                <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[30px] 3xl:w-[350px]">
                   <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">JavaScript</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                     JavaScript is a high-level programming language that is commonly used in web development. It is a versatile language. I have a solid understanding of its core concepts, programming fundamentals, web development technologies, and
@@ -298,10 +298,10 @@ function Project() {
           </div>
         </div>
         <div className="mt-[3rem]">
-          <div className="flex mt-1 justify-between 5xl:w-[95%]   items-center ">
-            <div className="project-box2 w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+          <div className="md:flex mt-1 justify-between 5xl:w-[95%]   items-center 3xxl:grid 3xxl:w-[340px] ">
+            <div className="project-box2 w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]  3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[40px] 3xl:mt-[20px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 513 456" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -311,7 +311,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[30px] 3xl:w-[350px]">
+                <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[30px] 3xl:w-[350px]">
                   <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">REACT</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                     React is a popular JavaScript library for building user interfaces. It provides a way to create reusable UI components and manage the state of an application, making it a powerful tool for building complex web applications.In
@@ -320,9 +320,9 @@ function Project() {
                 </div>{" "}
               </div>
             </div>
-            <div className="project-box2 w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box2 w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[40px] 3xl:mt-[20px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 219 191" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -332,15 +332,15 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[30px] 3xl:w-[350px] ">
+                <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[30px] 3xl:w-[350px] ">
                   <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">VUE</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">Vue.js is a progressive JavaScript framework that is commonly used for building web applications. I also understand how it works to an extent.</p>
                 </div>
               </div>
             </div>
-            <div className="project-box2 w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box2 w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:mt-[20px] 3xl:ml-[35px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 225 135" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -351,7 +351,7 @@ function Project() {
                   </svg>
                 </div>
 
-                <div className="w-[300px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[30px] 3xl:w-[350px] ">
+                <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[30px] 3xl:w-[350px] ">
                   <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">TailwindCss</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                     Tailwind CSS is a popular utility-first CSS framework that provides a set of pre-defined CSS classes that can be used to quickly build responsive and modern user interfaces. It's an increasingly popular choice for web developers
@@ -363,10 +363,10 @@ function Project() {
           </div>
         </div>
         <div className="mt-[3rem]">
-          <div className="flex mt-1 justify-between 5xl:w-[95%]   items-center ">
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+          <div className="md:flex mt-1 justify-between 5xl:w-[95%]   items-center 3xxl:grid 3xxl:w-[340px] ">
+            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]  3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:mt-[20px] 3xl:ml-[40px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -376,7 +376,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[25px] 3xl:w-[350px]">
+                <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[25px] 3xl:w-[350px]">
                   <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">GITHUB</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                     GitHub is a web-based platform that provides a collaborative environment for developers to manage and share their code. It is widely used for version control, project management, and code collaboration. I have good understanding
@@ -385,9 +385,9 @@ function Project() {
                 </div>{" "}
               </div>
             </div>
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:mt-[20px] 3xl:ml-[40px] ">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[193px] 3xl:ml-[160px]">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[193px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 212 167" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -397,7 +397,7 @@ function Project() {
                     />
                   </svg>
                 </div>
-                <div className="w-[300px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[30px] 3xl:w-[350px]">
+                <div className="md:w-[300px] 3xxl:w-[250px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[30px] 3xl:w-[350px]">
                   <h3 className="mb-1 font-[600] text-[18px] mt-[20px] 4xl:ml-[20px]  4xl:mt-[8%]">Bootstrap</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                     Bootstrap is a popular front-end web development framework that allows me to quickly create responsive and mobile-first websites. It includes pre-built CSS and JavaScript components that make it easy to design and customize
@@ -406,9 +406,9 @@ function Project() {
                 </div>{" "}
               </div>
             </div>
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px]text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:mt-[20px] 3xl:ml-[40px]">
-                <div className="ml-[8.5rem] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[230px] 4xl:ml-[180px] 3xl:ml-[155px]">
+                <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[230px] 4xl:ml-[180px] 3xl:ml-[155px]">
                   <svg width="50" height="50" viewBox="0 0 178 278" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       fillRule="evenodd"
@@ -418,8 +418,8 @@ function Project() {
                     />
                   </svg>
                 </div>{" "}
-                <div className="w-[300px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[20px] 3xl:w-[350px]">
-                  <h3 className="mb-1 font-[600] text-[18px] mt-[20px]">Figma</h3>
+                <div className="md:w-[300px] text-center 3xxl:w-[250px] 5xl:w-[500px]  ml-7 4xl:w-[400px] 4xl:ml-[20px] 3xl:w-[350px]">
+                  <h3 className="mb-1 font-[600] text-[18px] mt-[20px] 4xl:ml-[20px]  4xl:mt-[8%]">Figma</h3>
                   <p className=" font-[400] text-[14px] mb-2 text-[#4f4f4f] ">
                     Figma is a vector editing tools. As a designers i can create and manipulate vector shapes, icons, and illustrations with ease, making it easy to create custom designs. Figma also includes a range of pre-built design elements, such
                     as icons and fonts, which can save designers time and improve their workflow.{" "}
@@ -429,7 +429,7 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className=" w-[95%] mt-[6rem] ml-[2.5rem] mb-[2rem] border-t-2 border-[#C7C7C7]">
+        <div className="  3xxl:ml-[1rem] 3xxl:mt-[2rem] 3xxl:w-[320px] md:w-[90%] md:ml-[2.5rem] md:mt-[4rem] md:mb-[2rem] border-t-2 border-[#C7C7C7] 2xl:w-[93%]">
           <Footer />
         </div>
       </div>
