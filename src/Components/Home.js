@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <div className=" md:flex  3xxl:w-[320px] md:w-[85%] 3xxl:ml-[20px] 3xxl:grid 5xl:justify-evenly 4xl:justify-evenly 3xl:justify-evenly  text-[#000000] md:ml-[6rem] mt-[9rem]">
-        <img className=" home-img rounded-[100%] md:w-[500px] 3xxl:w-[300px] 3xxl:h-[300px] md:h-[500px]" src={image} alt="candy" />
+        <img className=" home-img rounded-[100%] 3xxl:ml-[20px] md:w-[500px] 3xxl:w-[300px] 3xxl:h-[300px] md:h-[500px]" src={image} alt="candy" />
         <div className=" home-details    md:ml-[3rem] mt-9 3xxl:w-[300px]">
           <div className="  w-[250px] justify-between flex">
             <h1 className=" font-[500]   text-[70px]">Hello</h1>
