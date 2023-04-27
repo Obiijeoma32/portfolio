@@ -24,7 +24,7 @@ function Header({ children }) {
   ];
   return (
     <>
-      <div className="3xxl:w-[375px]  md:pr-[40px]  header-container lg:w-[100%] md:w-[90%] md:justify-evenly  text-[#000000]  flex 3xxl:justify-evenly 3xxl:items-center ">
+      <div className="3xxl:w-[375px]  md:pr-[40px]  header-container lg:w-[100%] md:w-[90%] md:justify-evenly  text-[#000000]  flex  3xxl:items-center ">
         <div className=" 3xxl:mr-[10px] 3xxl:w-[px] ">
           <svg className="  md:mt-[-3px]" width="25" height="25" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -37,15 +37,15 @@ function Header({ children }) {
           <h1 className=" 3xxl:text-[20px] tracking-[1px] text-[24px] font-[500]">Ijeoma Candy Obi</h1>
           <h3 className=" 3xxl:text-[12px] text-[16px] font-[400]">Frontend Engineer & UX Designer </h3>
         </Link>
-        <div className="lg:flex hidden mt-[5px] ml-[30rem] w-[500px]  justify-between 2xl:ml-[65%]">
+        <div className="lg:flex hidden mt-[5px] ml-[30rem] md:w-[400px]  justify-between 2xl:ml-[65%]">
           {menuItems.map((item, index) => (
             <NavLink className="text-[14px]  tracking-[1px] font-[500] hover:underline " to={item.path} key={index}>
               {item.name}
             </NavLink>
           ))}
         </div>
-        <div className="lg:hidden  flex justify-end h-[80px] pb-[40px] w-[200px]">
-          <div className=" w-[100px]">
+        <div className="lg:hidden   h-[80px] pb-[40px] w-[300px]">
+          <div className=" mt-[10px] ml-[40px] w-[100px]">
             <svg onClick={handleHamBurgerMenu} width="40" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12.5 17.5H47.5" stroke="#0C0310" strokeWidth="5" strokeLinecap="round" />
               <path d="M12.5 42.5H47.5" stroke="#0C0310" strokeWidth="5" strokeLinecap="round" />

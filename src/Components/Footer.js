@@ -4,14 +4,14 @@ function Footer() {
   return (
     <>
       <div className=" mt-[3rem] h-[120px]   w-[100%] ">
-        <div className=" w-[95%] flex justify-between ">
+        <div className=" w-[95%] flex justify-between 3xxl:grid ">
           <div className="div1">
             <h1 className="font-[500] text-[#000]  text-[22px]">Email</h1>
             <a className="font-[400] text-[#000]  text-[16px] hover:underline" href="mailto:obiijeoma32@gmail.com">
               obiijeoma32@gmail.com
             </a>
           </div>
-          <div className="div2 ml-[20px]">
+          <div className="div2 ml-[20px] 3xxl:ml-[0px] 3xxl:mt-[30px]">
             <h1 className="font-[500] text-[#000]  text-[22px]">Follow Me</h1>
             <div className=" flex mt-2 w-[100px] justify-between ">
               <a className=" hover:text-[#008AFC]" title="Linkedin" href="https://www.linkedin.com/in/obiijeoma32/">
