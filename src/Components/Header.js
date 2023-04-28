@@ -37,14 +37,14 @@ function Header({ children }) {
           <h1 className=" 3xxl:text-[20px] tracking-[1px] md:text-[24px] font-[500]">Ijeoma Candy Obi</h1>
           <h3 className=" 3xxl:text-[12px] md:text-[16px] font-[400]">Frontend Engineer & UX Designer </h3>
         </Link>
-        <div className="lg:flex hidden mt-[5px] ml-[30rem] md:w-[400px]  justify-between 2xl:ml-[65%]">
+        <div className="lg:flex hidden  mt-[5px] ml-[30rem] md:w-[400px]  justify-between 2xl:ml-[65%]">
           {menuItems.map((item, index) => (
             <NavLink className="text-[14px]  tracking-[1px] font-[500] hover:underline " to={item.path} key={index}>
               {item.name}
             </NavLink>
           ))}
         </div>
-        <div className="lg:hidden   h-[80px] pb-[40px] w-[300px]">
+        <div className="lg:hidden ml-[50px]   h-[80px] pb-[40px] w-[350px]">
           <div className=" mt-[10px] ml-[40px] w-[100px]">
             <svg onClick={handleHamBurgerMenu} width="40" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12.5 17.5H47.5" stroke="#0C0310" strokeWidth="5" strokeLinecap="round" />
@@ -52,7 +52,7 @@ function Header({ children }) {
               <path d="M12.5 30H47.5" stroke="#0C0310" strokeWidth="5" strokeLinecap="round" />
             </svg>
             {hamBurgerMenu && (
-              <div className=" w-[150px] pt-[10px] float-right z-[99] h-[130px] rounded-[5px] shadow-lg bg-[#f3f3f3]  ">
+              <div className=" w-[150px] pt-[10px]  float-right mr-[40px] z-[99] h-[130px] rounded-[5px] shadow-lg bg-[#f3f3f3]  ">
                 <div className="grid text-center ">
                   {menuItems.map((item, index) => (
                     <NavLink onClick={() => window.scrollTo(0, 0)} className="text-[14px] h-[40px] tracking-[1px] font-[500] hover:underline " to={item.path} key={index}>

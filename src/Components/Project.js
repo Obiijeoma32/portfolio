@@ -4,10 +4,10 @@ import Footer from "./Footer";
 function Project() {
   return (
     <>
-      <div className="mt-[8rem] md:ml-8 3xxl:ml-[28px] 3xxl:w-[340px] md:w-[95%] 3xxl:overflow-x-hidden">
+      <div className="mt-[8rem]   md:ml-8 3xxl:ml-[40px] 3xxl:w-[340px] md:w-[95%] 3xxl:overflow-x-hidden">
         <div>
           <h1 className=" font-[600] text-[32px]  text-[#372f2f] text-center 5xl:ml-[-120px] 3xxl:ml-[-20px] 3xxl:mb-[30px] "> SKILLS</h1>
-          <div className="flex justify-between text-center 3xxl:ml-[10px]  3xxl:grid 5xl:w-[95%] items-center">
+          <div className="md:flex justify-between text-center 3xxl:ml-[10px]  3xxl:grid 5xl:w-[95%] items-center">
             <div className="skill-box md:w-[500px] 3xxl:mb-[30px] 3xxl:w-[310px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px]   md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  4xl:w-[500px] ">
               <div className=" 5xl:ml-[50px] 5xl:mt-[8%]   4xl:ml-[25px] 4xl:mt-[8%] 3xl:ml-[50px] 3xl:mt-[30px]">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#f8b931] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[175px]  ">
@@ -77,7 +77,7 @@ function Project() {
         <div className="mt-[4rem]">
           <h1 className=" font-[600] text-[32px] text-[#372f2f] text-center 5xl:ml-[-120px] 3xxl:ml-[-20px] 3xxl:mb-[30px] "> PROJECTS</h1>
           <div className="md:flex mt-2 justify-between 5xl:w-[95%] 3xxl:ml-[10px] items-center 3xxl:grid ">
-            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]   md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
+            <div className="project-box md:w-[500px] 3xxl:w-[310px] 3xxl:mb-[30px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px]   md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[50px] 5xl:mt-[8%]  4xl:ml-[5px] 4xl:mt-[8%] 3xl:ml-[40px] 3xl:mt-[20px]">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[37%] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex 5xl:ml-[220px] 4xl:ml-[190px] 3xl:ml-[155px] ">
                   <svg width="50" height="50" viewBox="0 0 214 178" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -153,8 +153,9 @@ function Project() {
         </div>
         <div className="mt-[3rem]">
           {/* landing */}
-          <div className="md:flex mt-1 justify-between 5xl:w-[95%] items-center 3xxl:w-[340px] 3xxl:grid 3xxl:ml-[5px] ">
-            <div className="project-box2 md:w-[600px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px] 3xxl:ml-[5px]   md:h-[400px] text-center m-[20px] 5xl:w-[650px] 4xl:w-[500px] ">
+          <div className="md:flex mt-2 justify-between 5xl:w-[95%] 3xxl:ml-[10px] items-center 3xxl:grid ">
+            {" "}
+            <div className="project-box2 md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[30px] 5xl:mt-[8%] 4xl:ml-[0px]  4xl:mt-[8%] 3xl:ml-[60px] 3xl:mt-[20px]">
                 <div className="3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex md:ml-[8.5rem]  5xl:ml-[230px]  4xl:ml-[185px]  ">
                   <svg width="50" height="50" viewBox="0 0 514 512" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -178,7 +179,7 @@ function Project() {
                 </div>{" "}
               </div>{" "}
             </div>
-            <div className="project-box2 md:w-[600px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px] 3xxl:ml-[5px]   md:h-[400px] text-center m-[20px] 5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box2 md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[35px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[60px] 3xl:mt-[20px]">
                 <div className="3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex md:ml-[8.5rem]  5xl:ml-[230px]  4xl:ml-[185px]  ">
                   <svg width="50" height="50" viewBox="0 0 513 272" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -202,7 +203,7 @@ function Project() {
                 </a>
               </div>{" "}
             </div>
-            <div className="project-box2 md:w-[600px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px] 3xxl:ml-[5px]   md:h-[400px] text-center m-[20px] 5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box2 md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[25px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[60px] 3xl:mt-[20px]">
                 <div className="3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#80D8DA] rounded-[50%] justify-around items-center flex md:ml-[8.5rem]  5xl:ml-[230px]  4xl:ml-[185px]  ">
                   <svg width="50" height="50" viewBox="0 0 484 468" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -230,8 +231,9 @@ function Project() {
         </div>
         <div className="mt-[4rem]">
           <h1 className=" font-[600] text-[32px] text-[#372f2f] text-center 5xl:ml-[-120px]  ">TOOLS</h1>
-          <div className="md:flex mt-1 justify-between 5xl:w-[95%]   items-center 3xxl:w-[340px] 3xxl:grid 3xxl:ml-[5px]">
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+          <div className="md:flex mt-2 justify-between 5xl:w-[95%] 3xxl:ml-[10px] items-center 3xxl:grid ">
+            {" "}
+            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[80px] 5xl:mt-[8%]  4xl:ml-[18px]  4xl:mt-[8%] 3xl:mt-[20px] 3xl:ml-[60px] ">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 4xl:ml-[190px]">
                   <svg width="50" height="50" viewBox="0 0 447 512" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -252,7 +254,7 @@ function Project() {
                 </p>
               </div>
             </div>
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px]  ">
+            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[80px] 5xl:mt-[8%]  4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[60px] 3xl:mt-[20px]">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 4xl:ml-[187px] ">
                   <svg width="50" height="50" viewBox="0 0 147 166" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -274,7 +276,7 @@ function Project() {
                 </p>
               </div>
             </div>
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]  3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px]  ">
+            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%]  4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[40px] 3xl:mt-[20px] ">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[230px] 4xl:ml-[185px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 429 430" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -298,8 +300,8 @@ function Project() {
           </div>
         </div>
         <div className="mt-[3rem]">
-          <div className="md:flex mt-1 justify-between 5xl:w-[95%]   items-center 3xxl:grid 3xxl:w-[340px] 3xxl:ml-[5px]">
-            <div className="project-box2 w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]  3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+          <div className="md:flex mt-2 justify-between 5xl:w-[95%] 3xxl:ml-[10px] items-center 3xxl:grid ">
+            <div className="project-box2 md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[40px] 3xl:mt-[20px]">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 513 456" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -320,7 +322,7 @@ function Project() {
                 </div>{" "}
               </div>
             </div>
-            <div className="project-box2 w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box2 md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:ml-[40px] 3xl:mt-[20px]">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 219 191" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -338,7 +340,7 @@ function Project() {
                 </div>
               </div>
             </div>
-            <div className="project-box2 w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box2 md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:mt-[20px] 3xl:ml-[35px]">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 225 135" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -363,8 +365,8 @@ function Project() {
           </div>
         </div>
         <div className="mt-[3rem]">
-          <div className="md:flex mt-1 justify-between 5xl:w-[95%]   items-center 3xxl:grid 3xxl:w-[340px] 3xxl:ml-[5px] ">
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]  3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+          <div className="md:flex mt-2 justify-between 5xl:w-[95%] 3xxl:ml-[10px] items-center 3xxl:grid ">
+            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:mt-[20px] 3xl:ml-[40px]">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[185px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -385,7 +387,7 @@ function Project() {
                 </div>{" "}
               </div>
             </div>
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px] text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:mt-[20px] 3xl:ml-[40px] ">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[235px] 4xl:ml-[193px] 3xl:ml-[160px]">
                   <svg width="50" height="50" viewBox="0 0 212 167" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -406,7 +408,7 @@ function Project() {
                 </div>{" "}
               </div>
             </div>
-            <div className="project-box w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px]   3xxl:w-[310px] 3xxl:h-[500px] 3xxl:mb-[30px]  3xxl:ml-[5px]  md:h-[400px]text-center m-[20px]  5xl:w-[650px] 4xl:w-[500px] ">
+            <div className="project-box md:w-[500px] shadow-lg bg-[#f7f6f6] rounded-[10px] 3xxl:h-[500px] 3xxl:mb-[30px] 3xxl:w-[310px]    md:h-[400px] text-center md:m-[20px] 5xl:w-[650px]  ">
               <div className=" 5xl:ml-[40px] 5xl:mt-[8%] 4xl:ml-[20px]  4xl:mt-[8%] 3xl:mt-[20px] 3xl:ml-[40px]">
                 <div className="md:ml-[8.5rem] 3xxl:ml-[35%] mt-[1rem] w-[90px] h-[90px] bg-[#008AFC] rounded-[50%] justify-around items-center flex 5xl:ml-[230px] 4xl:ml-[180px] 3xl:ml-[155px]">
                   <svg width="50" height="50" viewBox="0 0 178 278" fill="none" xmlns="http://www.w3.org/2000/svg">
