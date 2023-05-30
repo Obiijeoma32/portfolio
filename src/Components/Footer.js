@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <div className=" md:mt-[3rem] md:h-[120px] 3xxl:ml-[10px] md:m-[0px]  md:w-[100%] ">
-        <div className=" md:w-[95%] md:flex md:justify-between 3xxl:grid ">
+        <div className=" md:w-[95%] 6xxl:w-[95%] 5xxl:w-[95%] 5xxl:flex 5xxl:justify-between 6xxl:flex 6xxl:justify-between md:flex md:justify-between 3xxl:grid ">
           <div className="div1 3xxl:mt-[30px] md:mt-[0px]  ">
             <h1 className="font-[500] text-[#000]  text-[22px]">Email</h1>
             <a className="font-[400] text-[#000]  text-[16px] hover:underline" href="mailto:obiijeoma32@gmail.com">

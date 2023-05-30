@@ -7,7 +7,7 @@ function Resume() {
       <div className=" 3xxl:overflow-x-hidden">
         <div className=" ml-[25%] mt-[8rem]">
           <img className=" h-[70%] w-[70%]" src={resume} alt="Resume" />
-          <div className=" md:w-[650px] 3xxl:ml-[-35px]  h-[100px] 3xxl:w-[250px] items-center md:mt-[40px] flex justify-center">
+          <div className=" md:w-[85%] 5xxl:w-[80%] 3xxl:ml-[-35px] 1xl:w-[75%]  h-[100px] 3xxl:w-[250px] items-center md:mt-[40px] flex justify-center">
             <a className="w-[250px] mt-[40px] hover:bg-[#EEA302] hover:text-[#fff] hover:border-[#EEA302]  border-[0.5px] h-[50px] border-[#000] rounded-[40px] items-center flex justify-evenly" href={resume} download="IJEOMA CANDY OBI RESUME">
               <h1>Download Resume</h1>
               <svg width="39" height="29" viewBox="0 0 49 39" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +22,7 @@ function Resume() {
             </a>
           </div>
         </div>
-        <div className="  3xxl:ml-[2rem] 3xxl:mt-[2rem] 3xxl:w-[320px] md:w-[90%] md:ml-[2.5rem] md:mt-[4rem] md:mb-[2rem] border-t-2 border-[#C7C7C7] 2xl:w-[93%]">
+        <div className=" 3xxl:ml-[2rem] 5xxl:w-[90%] mt-[4rem] 6xxl:w-[90%] 3xxl:w-[320px] md:w-[90%] md:ml-[2.5rem] md:mt-[4rem] mb-[2rem] border-t-2 border-[#C7C7C7] 2xl:w-[93%]">
           <Footer />
         </div>
       </div>

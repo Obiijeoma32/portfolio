@@ -5,13 +5,13 @@ function Contact() {
   return (
     <>
       <div className=" 3xxl:overflow-x-hidden">
-        <div className="mt-[11rem] md:flex justify-between md:ml-[5rem] 3xxl:ml-[40px]  md:mr-[3rem] w-[85%] 3xxl:grid">
+        <div className="mt-[11rem] 6xxl:ml-[28%] 820xxl:ml-[15%] 7xxl:ml-[10%] 7xxl:grid 820xxl:grid 820xxl:w-[85%] 10inch:flex justify-between 10inch:ml-[5rem] 3xxl:ml-[40px]  10inch:mr-[3rem] w-[85%] 3xxl:grid">
           <div>
             <div className=" mt-4 ">
               <h1 className="font-[500] text-[#000]  text-[40px]">Contact </h1>
               <p className="font-[300] text-[#000]  text-[16px]"> Looking forward to hearing from you</p>
             </div>
-            <div className=" md:block hidden mt-8">
+            <div className=" 10inch:block 7xxl:hidden 820xxl:hidden hidden mt-8">
               <h1 className="font-[500] text-[#000]  text-[22px]">Email</h1>
               <a className="font-[300] text-[#000]  text-[16px] hover:underline" href="mailto:obiijeoma32@gmail.com">
                 obiijeoma32@gmail.com
@@ -19,7 +19,7 @@ function Contact() {
             </div>
           </div>
           <div>
-            <form autoComplete="on" className="" action="https://formsubmit.co/obiijeoma32@gmail.com" method="POST">
+            <form autoComplete="on" className=" 7xxl:mt-[3rem] 820xxl:mt-[0px] " action="https://formsubmit.co/obiijeoma32@gmail.com" method="POST">
               <div className="md:flex  3xxl:grid contact-form mt-4 w-[550px] justify-between items-center 5xl:w-[850px]">
                 <span>
                   <label className="font-[400] text-[#000]  text-[16px]" htmlFor="Fname">
@@ -68,7 +68,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="  3xxl:ml-[1rem] 3xxl:mt-[2rem] 3xxl:w-[320px] md:w-[90%] md:ml-[2.5rem] md:mt-[4rem] md:mb-[2rem] border-t-2 border-[#C7C7C7] 2xl:w-[93%]">
+        <div className=" 3xxl:ml-[2rem] 3xxl:mt-[3rem] 6xxl:w-[90%] 3xxl:w-[320px] md:w-[90%] md:ml-[2.5rem] md:mt-[4rem] mb-[2rem] border-t-2 border-[#C7C7C7] 2xl:w-[93%]">
           <Footer />
         </div>
       </div>

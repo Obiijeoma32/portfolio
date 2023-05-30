@@ -1,16 +1,15 @@
-// import Header from "./Header";
 import image from "./image.png";
-import "../App.css";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import "../App.css";
 
 function Home() {
   return (
     <>
       <div className=" 3xxl:overflow-x-hidden">
-        <div className=" md:flex  3xxl:w-[320px] md:w-[85%] 3xxl:ml-[20px] 3xxl:grid 5xl:justify-evenly 4xl:justify-evenly 3xl:justify-evenly  text-[#000000] md:ml-[6rem] mt-[9rem]">
-          <img className=" home-img rounded-[100%] 3xxl:ml-[20px] md:w-[500px] 3xxl:w-[300px] 3xxl:h-[300px] md:h-[500px]" src={image} alt="candy" />
-          <div className=" home-details    md:ml-[3rem] mt-9 3xxl:w-[300px]">
+        <div className=" 820xxl:flex 6xxl:ml-[15%] 4xl:w-[70%] 4xl:ml-[20%] 7xxl:ml-[5%] 5xxl:ml-[15%] 820xxl:ml-[40px] 6xxl:w-[85%] 820xxl:items-center 3xxl:w-[320px] 820xxl:w-[90%] 3xxl:ml-[20px] 3xxl:grid 5xl:justify-evenly 4xl:justify-evenly 3xl:justify-evenly  text-[#000000] 1xl:ml-[6rem] mt-[9rem]">
+          <img className=" home-img rounded-[100%] 6xxl:w-[400px] 6xxl:h-[400px] 3xxl:ml-[20px] md:w-[400px] 3xxl:w-[300px] 3xxl:h-[300px] md:h-[400px]" src={image} alt="candy" />
+          <div className=" home-details md:w-[80%] 6xxl:w-[85%]  md:ml-[3rem] mt-9 3xxl:w-[300px]">
             <div className="  w-[250px] justify-between flex">
               <h1 className=" font-[500]   text-[70px]">Hello</h1>
               <svg className="mt-[25px]" width="50" height="50" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +62,7 @@ function Home() {
             </div>
             <div className="  mt-4">
               <h3 className=" ml-1 font-[500] text-[25px]">A Bit About Me</h3>
-              <p className=" tracking-[1px] 3xxl:w-[335px]   ml-1 mt-1 text-[16px] font-[400] md:w-[500px] 5xl:w-[800px] 4xl:w-[700px] 3xl:w-[600px]  ">
+              <p className=" tracking-[1px] 3xxl:w-[335px] 6xxl:w-[100%]   ml-1 mt-1 md:text-[14px] 10inch:w-[85%] 1xl:text-[16px] font-[400] md:w-[100%] 5xl:w-[800px] 4xl:w-[700px] 3xl:w-[600px]  ">
                 My name is Candy Ijeoma Obi, and I am a frontend engineer with a passion for JavaScript and a strong understanding of React. I have also honed my skills as a creative UX designer, enjoying the process of designing and playing with
                 colors to create visually appealing and user-friendly interfaces. In addition to my professional pursuits, I am also someone who loves to laugh and finds joy in the simple things in life. I am a hardworking individual who takes pride
                 in my work and strives to deliver the best possible outcomes in everything I do.{" "}
@@ -71,27 +70,36 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="  3xxl:w-[340px]  md:w-[95%] 5xl:mt-[-5rem] md:flex justify-end 5xl:w-[74%] 4xl:w-[83%] 4xl:mt-[-5rem] 3xl:w-[89%] 3xl:mt-[-4rem]">
-          <div className=" 3xxl:ml-[28px] md:flex justify-between md:mt-[4rem] 3xxl:mt-[5rem] 3xxl:w-[300px]  md:w-[680px]  ">
-            <div className=" 3xxl:w-[320px] 3xxl:justify-between  3xxl:flex">
-              <Link to="/resume">
-                <div className=" socials 3xxl:mb-[20px] font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px]  text-center outline  outline-1 bg-[#fdc244] hover:bg-[#fff]  ">Resume</div>
+        <div className="  3xxl:w-[340px]  820xxl:w-[95%] 5xl:mt-[-5rem] 6xxl:w-[100%] 820xxl:flex justify-end 5xl:w-[50%] 4xl:w-[65%] 4xl:ml-[15%] 4xl:mt-[-1rem] 3xl:w-[89%] 3xl:mt-[-4rem]">
+          <div className=" 3xxl:ml-[28px] 1halfxl:w-[70%]  13inch:w-[55%] 7xxl:w-[85%] 7xxl:justify-evenly 7xxl:ml-[5%] 5xxl:w-[75%] 5xxl:ml-[20%] 6xxl:ml-[10%] 6xxl:flex 6xxl:w-[75%] 6xxl:justify-evenly  820xxl:flex justify-between 820xxl:mt-[4rem] 3xxl:mt-[5rem] 3xxl:w-[300px] 10inch:w-[68%] 10inch:ml-[0%] 10inch:justify-center  820xxl:w-[680px]  ">
+            <div className=" 3xxl:w-[320px] 10inch:w-[50%] 7xxl:w-[50%] 6xxl:w-[45%] 3xxl:justify-between  3xxl:flex">
+              <Link onClick={() => window.scrollTo(0, 0)} to="/resume">
+                <div className=" socials 3xxl:mb-[20px] font-[500] 3xxl:text-[20px] 6xxl:text-[15px] md:text-[20px] rounded-[100%] 3xxl:pt-[60px] 6xxl:pt-[40px] md:pt-[60px] md:w-[150px] md:h-[150px] 6xxl:h-[100px] 6xxl:w-[100px]  3xxl:w-[150px] 3xxl:h-[150px] text-center outline  outline-1 bg-[#fdc244] hover:bg-[#fff]  ">
+                  Resume
+                </div>
               </Link>
-              <Link to="/project">
-                <div className=" socials 3xxl:mb-[20px] font-[500] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px]  text-center outline  outline-1 bg-[#FF3B25] hover:bg-[#fff]  "> Projects</div>
+              <Link onClick={() => window.scrollTo(0, 0)} to="/project">
+                <div className=" socials 3xxl:mb-[20px] font-[500] 3xxl:text-[20px] 6xxl:text-[15px] md:text-[20px] rounded-[100%] 3xxl:pt-[60px] 6xxl:pt-[40px] md:pt-[60px] md:w-[150px] md:h-[150px] 6xxl:h-[100px] 6xxl:w-[100px]  3xxl:w-[150px] 3xxl:h-[150px]  text-center outline  outline-1 bg-[#FF3B25] hover:bg-[#fff]  ">
+                  {" "}
+                  Projects
+                </div>
               </Link>
             </div>
-            <div className=" md:ml-[30px] 3xxl:w-[320px] 3xxl:justify-between 3xxl:flex">
+            <div className=" md:ml-[30px] 7xxl:w-[50%] 6xxl:w-[45%] 3xxl:w-[320px] 10inch:w-[50%] 3xxl:justify-between 3xxl:flex">
               <a href="https://github.com/Obiijeoma32">
-                <div className="socials2 font-[500] 3xxl:mb-[20px] text-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#80D8DA] hover:bg-[#fff] hover:outline-offset-2">Github</div>
+                <div className="socials2 font-[500] 3xxl:mb-[20px] 3xxl:text-[20px] 6xxl:text-[15px] md:text-[20px] rounded-[100%] 3xxl:pt-[60px] 6xxl:pt-[40px] md:pt-[60px] md:w-[150px] md:h-[150px] 6xxl:h-[100px] 6xxl:w-[100px]  3xxl:w-[150px] 3xxl:h-[150px] text-center outline  outline-1 bg-[#80D8DA] hover:bg-[#fff] hover:outline-offset-2">
+                  Github
+                </div>
               </a>
               <a href="https://www.linkedin.com/in/obiijeoma32/">
-                <div className="socials2 font-[500] text-[20px] 3xxl:mb-[20px] rounded-[100%] pt-[60px] w-[150px] h-[150px] text-center outline  outline-1 bg-[#008AFC] hover:bg-[#fff] ">linkedin</div>
+                <div className="socials2 font-[500] 3xxl:text-[20px] 6xxl:text-[15px] md:text-[20px] 3xxl:mb-[20px] rounded-[100%] 3xxl:pt-[60px] 6xxl:pt-[40px] md:pt-[60px] md:w-[150px] md:h-[150px] 6xxl:h-[100px] 6xxl:w-[100px]  3xxl:w-[150px] 3xxl:h-[150px] text-center outline  outline-1 bg-[#008AFC] hover:bg-[#fff] ">
+                  linkedin
+                </div>
               </a>
             </div>
           </div>
         </div>
-        <div className=" 3xxl:ml-[2rem] 3xxl:w-[320px] md:w-[90%] md:ml-[2.5rem] md:mt-[4rem] mb-[2rem] border-t-2 border-[#C7C7C7] 2xl:w-[93%]">
+        <div className=" 3xxl:ml-[2rem] 5xxl:w-[90%] 6xxl:w-[90%] 3xxl:w-[320px] md:w-[90%] md:ml-[2.5rem] md:mt-[4rem] mb-[2rem] border-t-2 border-[#C7C7C7] 2xl:w-[93%]">
           <Footer />
         </div>
       </div>

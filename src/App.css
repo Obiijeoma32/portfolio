@@ -15,7 +15,7 @@ body {
   padding-top: 25px;
   padding-left: 33px;
   height: 90px;
-  width: 100%;
+  /* width: 100%; */
   z-index: 99;
   opacity: 0.9;
   background-color: #f3f3f3;
