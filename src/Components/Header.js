@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import "../App.css";
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 function Header({ children }) {
   const [hamBurgerMenu, setHamBurgerMenu] = useState(false);
@@ -8,6 +8,26 @@ function Header({ children }) {
   function handleHamBurgerMenu() {
     setHamBurgerMenu(!hamBurgerMenu);
   }
+  const handleHamBurgerClose = () => {
+    setHamBurgerMenu(false);
+  };
+  const handleScroll = useCallback(() => {
+    if (hamBurgerMenu) {
+      handleHamBurgerClose();
+    }
+    return hamBurgerMenu;
+  }, [hamBurgerMenu]);
+  useEffect(
+    function () {
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    },
+    [hamBurgerMenu, handleScroll]
+  );
+
   const menuItems = [
     {
       path: "/resume",
