@@ -22,7 +22,7 @@ function About() {
             </p>
             <div className="w-[264px] relative  mt-[30px] flex justify-between h-[43px]">
               <a className=" " href={cv} download={cv}>
-                <button className=" w-[121px] h-[43px] text-center flex justify-evenly items-center  text-[#25282B] text-[18px] font-medium bg-[#FFB600] rounded-[8px] ">
+                <button className=" w-[121px] h-[43px] text-center flex justify-evenly items-center hover:border-[1.8px] hover:border-[#25282B]  text-[#25282B] text-[18px] font-medium bg-[#FFB600] rounded-[8px] ">
                   {" "}
                   Resume{" "}
                   <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
