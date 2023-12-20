@@ -25,7 +25,7 @@ function Contact() {
               <label className="text-[#767676] text-[16px] ">Message</label>
               <br />
               <textarea className=" mt-[10px] pt-[20px] pr-[20px] mb-[21px] active:border-[#25282B] text-[#25282B] pl-[20px] bg-[#F0F0F6CC] opacity-80 rounded-[24px] w-[521px] h-[210px] " type="text" />
-              <button className=" w-[183px] rounded-[8px] h-[43px] bg-[#FFB600] text-[#25282B] text-[18px] ">Send Message</button>
+              <button className=" w-[183px] rounded-[8px] h-[43px] bg-[#FFB600] hover:border-[1.8px] hover:border-[#25282B] text-[#25282B] text-[18px] ">Send Message</button>
             </form>
           </div>
           <div className="h-[700px] flex flex-col justify-between items-center ">
@@ -162,7 +162,7 @@ function Contact() {
               <label className="text-[#767676] text-[16px] ">Message</label>
               <br />
               <textarea className=" mt-[10px] pt-[20px] pr-[20px] mb-[21px] active:border-[#25282B] text-[#25282B] pl-[20px] bg-[#F0F0F6CC] opacity-80 rounded-[24px] w-[90%] h-[210px] " type="text" />
-              <button className=" w-[183px] rounded-[8px] h-[43px] bg-[#FFB600] text-[#25282B] text-[18px] ">Send Message</button>
+              <button className=" w-[183px] rounded-[8px] h-[43px] bg-[#FFB600] hover:border-[1.8px] hover:border-[#25282B] text-[#25282B] text-[18px] ">Send Message</button>
             </form>
           </div>
           <div className="bg-[#fff] w-full mt-[40px] h-[225px] rounded-[24px]   flex items-center justify-center pt-[25px] ">

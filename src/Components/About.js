@@ -65,7 +65,7 @@ function About() {
           </p>
           <div className="w-[264px] relative mt-[10px] flex justify-between h-[43px]">
             <Link className=" " to="/resume">
-              <button className=" w-[121px] h-[43px] text-center   text-[#25282B] text-[18px] font-medium bg-[#FFB600] rounded-[8px] "> Resume</button>
+              <button className=" w-[121px] h-[43px] text-center  hover:border-[1.8px] hover:border-[#25282B]  text-[#25282B] text-[18px] font-medium bg-[#FFB600] rounded-[8px] "> Resume</button>
             </Link>
             <a className="  " href="https://www.behance.net/ijeomaobi">
               <button className="w-[121px] font-medium h-[43px] border-[1.8px] hover:bg-[#25282B] hover:text-[#ffff] border-[#25282B] rounded-[8px] text-[18px] text-[#25282B] ">Portfolio</button>
