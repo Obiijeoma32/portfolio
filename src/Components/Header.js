@@ -47,7 +47,7 @@ function Header() {
         </div>
       </div>
       {hamburger && (
-        <div className="bg-[#000000] z-30 font-medium bg-opacity-80 w-[100%] h-screen fixed text-[#fff] text-[32px] ">
+        <div className="bg-[#000000] z-30 font-medium bg-opacity-80 w-[100%] h-full fixed text-[#fff] text-[32px] ">
           <div className=" float-right w-fit h-fit mt-[40px] mr-[20px]  ">
             <svg onClick={() => setHamburger(false)} width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M31.6666 10.6833L29.3166 8.33325L19.9999 17.6499L10.6833 8.33325L8.33325 10.6833L17.6499 19.9999L8.33325 29.3166L10.6833 31.6666L19.9999 22.3499L29.3166 31.6666L31.6666 29.3166L22.3499 19.9999L31.6666 10.6833Z" fill="white" />

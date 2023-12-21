@@ -11,7 +11,7 @@ function Contact() {
         <div className=" flex justify-between w-[74.8%] mt-[80px] items-center ">
           {/* form box */}
           <div className="bg-[#fff] w-[570px] h-[700px] pl-[25px] rounded-[24px]  flex items-center justify-center pt-[25px] ">
-            <form className="  ">
+            <form autoComplete="" className="  ">
               <label className="text-[#767676] text-[16px] ">Your Full Name ( Required)</label>
               <br />
               <input className=" mt-[10px] mb-[25px] active:border-[#25282B] text-[#25282B] pl-[20px] pr-[20px] bg-[#F0F0F6CC] opacity-80 rounded-[24px] w-[521px] h-[50px] " type="name" />
