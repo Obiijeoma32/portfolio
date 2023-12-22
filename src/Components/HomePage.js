@@ -80,8 +80,8 @@ function HomePage() {
       </div>
       {/* big screens from 1050px - 2600px */}
       <div className=" 3xxS:hidden 5xxS:hidden  820xxS:block  1xS:block">
-        <div className="mt-[%] h-[750px] w-[100%] flex  justify-between">
-          <div className=" mt-[13%] w-[45%] pl-[60px]  ">
+        <div className=" h-[750px] w-[100%] flex  justify-between">
+          <div className=" mt-[200px] w-[45%] pl-[60px]  ">
             <div>
               <h3 className="text-[20px] text-[#FFB600B2] text-opacity-70 font-normal">UI/UX Designer</h3>
               <h1 className="text-[#25282B]  text-[64px] font-semibold  ">Hello, my name is Candy Obi</h1>
@@ -96,7 +96,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <img className=" h-[650px] w-[55%] " src={homePagePic} alt="Candy" />
+          <img className=" h-[680px] w-[55%]  " src={homePagePic} alt="Candy" />
         </div>
       </div>
       <Projects />

@@ -34,7 +34,7 @@ function Header() {
   return (
     <>
       {/* small screens from 300px - 900px */}
-      <div className={` 3xxS:flex w-full z-30 left-0 top-0 justify-center h-[70px]   pr-[35px] fixed items-center 1xS:hidden ${navBar ? "bg-opacity-20  bg-black" : " bg-transparent"} `}>
+      <div className={` 3xxS:flex w-full z-30 left-0 top-0 justify-center h-[70px]   pr-[35px] fixed items-center 1xS:hidden ${navBar ? "bg-opacity-20  bg-black" : "  bg-transparent"} `}>
         <div className=" w-full   flex  justify-between items-center ">
           <Logo />
           <div className="   text-[16px]   ">
@@ -68,7 +68,7 @@ function Header() {
 
       {/* Big Screens from 1050px - 2600px */}
       <div className=" 3xxS:hidden 1xS:block ">
-        <div className={navBar ? "w-[100%] h-[100px]   fixed pl-[50px] pr-[55px] flex  justify-between items-center bg-opacity-20  bg-black" : "w-[100%] h-[100px] fixed pl-[50px] pr-[55px] flex  justify-between items-center bg-transparent"}>
+        <div className={navBar ? "w-[100%] h-[80px]   fixed pl-[50px] pr-[55px] flex  justify-between items-center bg-opacity-20  bg-black" : "  w-[100%] h-[80px] fixed pl-[50px] pr-[55px] flex  justify-between items-center bg-transparent"}>
           <Logo />
           <div className=" text-[#25282B] font-medium text-[16px] flex justify-between items-center w-[33%] ">
             {menuList.map((item, index) => (

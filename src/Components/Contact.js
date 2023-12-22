@@ -8,7 +8,7 @@ function Contact() {
           <h3 className="border-b-[4px] w-[100px] rounded-[2px] border-b-[#FFB600]">{/* intentional break */}</h3>
         </div>
         {/* contact container */}
-        <div className=" flex justify-between w-[74.8%] mt-[80px] items-center ">
+        <div className=" flex justify-between w-[950px]  mt-[80px] items-center ">
           {/* form box */}
           <div className="bg-[#fff] w-[570px] h-[700px] pl-[25px] rounded-[24px]  flex items-center justify-center pt-[25px] ">
             <form autoComplete="" className="  ">
@@ -147,8 +147,8 @@ function Contact() {
             <h2 className=" text-[40px]  font-medium text-[#25282B]">Contact</h2>
             <h3 className="border-b-[4px] w-[100px] rounded-[2px] border-b-[#FFB600]">{/* intentional break */}</h3>
           </div>
-          <div className="bg-[#fff] mt-[40px] w-full h-fit pb-[40px] pl-[25px] rounded-[24px]  flex items-center justify-center pt-[25px] ">
-            <form className="  ">
+          <div className="bg-[#fff] mt-[40px] w-full h-fit pb-[40px] pl-[50px] rounded-[24px]  flex items-center justify-center pt-[25px] ">
+            <form className=" w-full ">
               <label className="text-[#767676] text-[16px] ">Your Full Name ( Required)</label>
               <br />
               <input className=" mt-[10px] mb-[25px] active:border-[#25282B] text-[#25282B] pl-[20px] pr-[20px] bg-[#F0F0F6CC] opacity-80 rounded-[24px] w-[90%] h-[50px] " type="name" />
@@ -156,9 +156,11 @@ function Contact() {
               <label className="text-[#767676] text-[16px] ">Your Email ( Required)</label>
               <br />
               <input className=" mt-[10px] mb-[25px] active:border-[#25282B] text-[#25282B] pr-[20px] pl-[20px] bg-[#F0F0F6CC] opacity-80 rounded-[24px] w-[90%] h-[50px] " type="email" />
+              <br />
               <label className="text-[#767676] text-[16px] ">Subject</label>
               <br />
               <input className=" mt-[10px] pr-[20px] mb-[25px] active:border-[#25282B] text-[#25282B] pl-[20px] bg-[#F0F0F6CC] opacity-80 rounded-[24px] w-[90%] h-[50px] " type="text" />
+              <br />
               <label className="text-[#767676] text-[16px] ">Message</label>
               <br />
               <textarea className=" mt-[10px] pt-[20px] pr-[20px] mb-[21px] active:border-[#25282B] text-[#25282B] pl-[20px] bg-[#F0F0F6CC] opacity-80 rounded-[24px] w-[90%] h-[210px] " type="text" />
