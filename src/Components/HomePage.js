@@ -42,19 +42,19 @@ function HomePage() {
         <div className="  w-[85%] max-w-[85%] ">
           <h3 className="text-[10px] text-[#FFf] text-opacity-70 font-normal">UI/UX Designer</h3>
           <h1 className="text-[#25282B]  text-[30px] font-semibold  ">Hello, my name is Candy Obi</h1>
-          <div className=" w-full flex items-end   justify-between   ">
+          <div className=" w-full flex items-end  justify-between   ">
             <div>
               <p className="text-[13px] mt-[10px] text-[#828282] font-normal ">I’m a Frontend Developer and UI/UX designer who’s passionate about fusing design and code to craft fluid digital experiences.</p>
-              <div className="w-[174px] mt-[30px] flex justify-between h-[43px]">
+              <div className="w-[160px] mt-[30px] flex justify-between h-[43px]">
                 <Link to="/projects">
-                  <button className="w-[80px] font-medium h-[35px] hover:border-[1.8px] hover:border-[#25282B] bg-[#FFB600] rounded-[8px] text-[11px] text-[#25282B] ">Projects</button>
+                  <button className="w-[75px] font-medium h-[35px] hover:border-[1.8px] hover:border-[#25282B] bg-[#FFB600] rounded-[8px] text-[11px] text-[#25282B] ">Projects</button>
                 </Link>
                 <a href="https://www.linkedin.com/in/obiijeoma32/">
-                  <button className="w-[80px] font-medium h-[35px] border-[1.8px] hover:bg-[#25282B] hover:text-[#ffff] border-[#25282B] rounded-[8px] text-[13px] text-[#25282B] ">LinkedIn</button>
+                  <button className="w-[75px] font-medium h-[35px] border-[1.8px] hover:bg-[#25282B] hover:text-[#ffff] border-[#25282B] rounded-[8px] text-[11px] text-[#25282B] ">LinkedIn</button>
                 </a>
               </div>
             </div>
-            <img className=" w-[50%] h-[160px]  " src={smallScreens} alt="Candy" />
+            <img className=" w-[40%] h-[140px]  " src={smallScreens} alt="Candy" />
           </div>
         </div>
       </div>

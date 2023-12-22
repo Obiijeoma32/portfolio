@@ -63,12 +63,12 @@ function About() {
             Hi, I'm Candy Ijeoma Obi, a Frontend Developer and UI/UX Designer with a passion for crafting user-friendly interfaces. I specialize in creating seamless digital experiences that blend aesthetics with functionality. Explore my work and
             lets make the web more user-centric together.
           </p>
-          <div className="w-[264px] relative mt-[10px] flex justify-between h-[43px]">
+          <div className="w-[210px] relative mt-[10px] flex justify-between h-[43px]">
             <Link className=" " to="/resume">
-              <button className=" w-[121px] h-[43px] text-center  hover:border-[1.8px] hover:border-[#25282B]  text-[#25282B] text-[18px] font-medium bg-[#FFB600] rounded-[8px] "> Resume</button>
+              <button className="w-[100px] font-semibold h-[35px] hover:border-[1.8px] hover:border-[#25282B] bg-[#FFB600] rounded-[8px] text-[11px] text-[#25282B] "> Resume</button>
             </Link>
             <a className="  " href="https://www.behance.net/ijeomaobi">
-              <button className="w-[121px] font-medium h-[43px] border-[1.8px] hover:bg-[#25282B] hover:text-[#ffff] border-[#25282B] rounded-[8px] text-[18px] text-[#25282B] ">Portfolio</button>
+              <button className="w-[100px] font-semibold h-[35px] border-[1.8px] hover:bg-[#25282B] hover:text-[#ffff] border-[#25282B] rounded-[8px] text-[11px] text-[#25282B] ">Portfolio</button>
             </a>
           </div>
         </div>
