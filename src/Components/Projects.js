@@ -1,26 +1,10 @@
 import lawId from "./images/forLawPor.png";
-import elevatorId from "./images/forElevator.png";
 import mentalPic from "./images/Web and Mobile Presentation Blue.jpg";
 import guardian from "./images/PresentationGg.jpg";
 import coming from "./images/Coming Soon Presentation.jpg";
 import mojo from "./images/MOJO Presentation.jpg";
 
 function Projects() {
-  //   {
-  //     id: 1,
-  //     name: "Resume Builder",
-  //     description: "I developed this project to serve as an illustration of creating a resume template, using this application as a practical demonstration.",
-  //     url: "https://www.figma.com/proto/Ewf8O1HoF7bU3dzu9TXs9n/Resume-Builder?page-id=0%3A1&type=design&node-id=224-199&viewport=1163%2C577%2C0.14&t=OlSYXvPduEDePMZh-1&scaling=scale-down-width&starting-point-node-id=203%3A81&mode=design",
-  //     image1: resumeId,
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Resume Builder",
-  //     description: "I created this project to demonstrate how to build a single-page website for an elevator construction company using this application as a practical example.",
-  //     url: "https://www.figma.com/proto/Ewf8O1HoF7bU3dzu9TXs9n/Resume-Builder?page-id=0%3A1&type=design&node-id=224-199&viewport=1163%2C577%2C0.14&t=OlSYXvPduEDePMZh-1&scaling=scale-down-width&starting-point-node-id=203%3A81&mode=design",
-  //     image1: lawId,
-  //   },
-  // ];
   return (
     <>
       {/* small screens from 300px - 900px */}
